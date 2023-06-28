@@ -1,83 +1,83 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Caprasimo', cursive;
-    font-size: 12px;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin: 0;
+  font-family: "Caprasimo", cursive;
+  font-size: 12px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .backgroun {
-    position: fixed;
-    width: 200%;
-    height: 200%;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
 }
 
 .backgroun img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    bottom: 0; 
-    right: 0;
-    min-width: 50%;
-    min-height: 50%;
-    filter: blur(15px);
-    -webkit-filter: blur(50px);
-    transform: scale(1.1);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-width: 50%;
+  min-height: 50%;
+  filter: blur(15px);
+  -webkit-filter: blur(50px);
+  transform: scale(1.1);
 }
 
 .container {
-    background-color: aliceblue;
-    height: 500px;
-    width: 400px;
-    border-radius: 25px;
-    box-shadow: 0 15px 30px rgb(0, 0, 0, 0.3);
-    transition: all 0.5s ease;
+  background-color: aliceblue;
+  height: 500px;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0 15px 30px rgb(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
 }
 
 .container:hover {
-    box-shadow: 0 15px 30px rgba( 0, 0, 0, 0.6);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
 }
 
 .logo-music {
-    width: 300px;
-    height: 300px;
-    position: relative;
-    top: -50px;
-    left: 50px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: -50px;
+  left: 50px;
 }
 
 .musicaLogo {
-    width: 30px;
-    height: 300px;
-    position: relative;
-    top: -50;
-    left: 50px;
+  width: 30px;
+  height: 300px;
+  position: relative;
+  top: -50;
+  left: 50px;
 }
 
 .musicaLogo img {
-   object-fit: cover; 
-   border-radius: 93px;
-   width: 190px;
-   margin-left: 180%;
-   margin-top: 20px;
-   box-shadow:  0 8px 34px 10px rgba(0,0,0,0.5);
+  object-fit: cover;
+  border-radius: 93px;
+  width: 190px;
+  margin-left: 180%;
+  margin-top: 20px;
+  box-shadow: 0 8px 34px 10px rgba(0, 0, 0, 0.5);
 }
 
-.musicaLogo img:active{
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s;
-    opacity: 1;
+.musicaLogo img:active {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+  opacity: 1;
 }
 
 h2 {
@@ -88,12 +88,40 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
-    text-align: center;
-    font-weight: 500;
-    margin: 10px 0 0;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+  margin: 10px 0 0;
 }
 
+.progreso {
+  background-color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px 20px 35px;
+  height: 6px;
+  width: 90%;
+}
 
+.barra-progreso {
+  background-color: #212121;
+  border-radius: 5px;
+  height: 100%;
+  width: 0%;
+  transition: width 0.1s linear;
+}
 
+.time {
+  position: relative;
+  top: -25px;
+  display: flex;
+  justify-content: space-between;
+}
 
+.botones {
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+  display: flex;
+}
