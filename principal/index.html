@@ -19,7 +19,7 @@
   <body>
     <main>
       <div class="backgroun" id="background">
-        <div>
+        <div class="principal-img" id="imagen">
           <img
             src="./img/gebhartyler-AQpOwYbm_Jg-unsplash.jpg"
             alt="fondo-Brackground"
@@ -28,7 +28,7 @@
       </div>
 
       <div class="container">
-        <div class="musicaLogo">
+        <div class="musicaLogo" id="logo-cancion">
           <img src="./img/Duki-01.jpg" alt="logo-cancion" />
         </div>
         <h2 class="Cancion-nom" id="nom-Cancion">cancion</h2>
@@ -44,12 +44,14 @@
 
         <div class="botones" id="botons">
           <div class="proxCancion" id="cancionSiguente">
-            <i class="bi bi-chevron-double-right"></i>
-          </div>
-          <div class="anteriorCancion" id="cancionAnterior">
             <i class="bi bi-chevron-double-left"></i>
           </div>
-          <div class="pausado" id="pausa"><i class="bi bi-play-fill"></i></div>
+          <div class="pausando" id="stop">
+            <div class="pausado" id="pausa">
+              <i class="bi bi-play-fill"></i>
+            </div>
+          </div class="anteriorCancion" id="cancionAnterior">
+          <i class="bi bi-chevron-double-right"></i>
         </div>
       </div>
     </main>

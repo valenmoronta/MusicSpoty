@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-  background-color: aliceblue;
+  background-color: #99a98f;
   height: 500px;
   width: 400px;
   border-radius: 25px;
@@ -81,15 +81,17 @@ body {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
+  left: 28%;
   font-weight: 500;
   margin: 10px 0 0;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 22px;
   text-align: center;
+  left: 28%;
   font-weight: 500;
   margin: 10px 0 0;
 }
@@ -119,9 +121,24 @@ h3 {
 }
 
 .botones {
+  font-size: 28px;
   position: relative;
   top: -15px;
   left: 120px;
   width: 200px;
   display: flex;
+  justify-content: center;
+  left: 26%;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pausado {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.botones:hover {
+  color: darkorchid;
 }
